@@ -1,0 +1,28 @@
+* {
+  margin: 1;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  color: rgb(12, 0, 15);
+}
+
+.tituloMusicas {
+  color: aliceblue;
+}
+
+ol {
+  background-color: #c310cf;
+  color: azure;
+}/*# sourceMappingURL=style.css.map */

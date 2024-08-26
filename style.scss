@@ -1,0 +1,41 @@
+//seletor {
+// propriedade: valor;
+//}
+
+// primeira coisa a fazer no arquivo de style é o reset
+// * seletor universal/global
+*{
+    margin: 1; //espaço de fora da tag
+    padding: 0; //espaço de dentro da tag 
+    box-sizing: border-box; //é utilizada para alterar o cálculo da largura e altura
+}
+
+body{
+    background-color: blueviolet; // cor de fundo
+}
+
+img{
+    width: 250px;
+    border-radius: 50%;
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    //color = cor
+    color: rgb(12, 0, 15);
+    //bory ao corpo do site   
+}
+// no index.html nos vamos nomear a tag -> class
+// para chamar uma class aqui no style precisamos usar o: .nomeDaClass
+.tituloMusicas{
+    //propriedade :valor;
+    color: aliceblue;
+}
+ol{
+    // cor hexadecimal
+    // # seguida de 3 pares, cada para é referente ao rgb, 00, ff
+    //background-color: #690ced
+    //rgb + alpha ele é referente ao uma cor com opacidade/transparencia
+    background-color: rgba($color: #c310cf54, $alpha: 1.0);
+    color: azure;
+}
