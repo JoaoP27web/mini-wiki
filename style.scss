@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
 //seletor {
 // propriedade: valor;
 //}
@@ -11,6 +13,7 @@
 }
 
 body{
+    font-family: "Matemasie", sans-serif;
     background-color: blueviolet; // cor de fundo
 }
 
@@ -20,7 +23,6 @@ img{
 }
 
 h1{
-    font-family: "Dancing Script", cursive;
     //color = cor
     color: rgb(12, 0, 15);
     //bory ao corpo do site   
@@ -36,6 +38,6 @@ ol{
     // # seguida de 3 pares, cada para é referente ao rgb, 00, ff
     //background-color: #690ced
     //rgb + alpha ele é referente ao uma cor com opacidade/transparencia
-    background-color: rgba($color: #c310cf54, $alpha: 1.0);
+    background-color: rgba($color: #c310cf, $alpha: 1.0);
     color: azure;
 }

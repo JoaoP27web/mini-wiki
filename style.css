@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Matemasie&display=swap");
 * {
   margin: 1;
   padding: 0;
@@ -5,6 +6,7 @@
 }
 
 body {
+  font-family: "Matemasie", sans-serif;
   background-color: blueviolet;
 }
 
@@ -14,7 +16,6 @@ img {
 }
 
 h1 {
-  font-family: "Dancing Script", cursive;
   color: rgb(12, 0, 15);
 }
 
